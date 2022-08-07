@@ -7,19 +7,23 @@ Exercise  Client-Server application for Polyster Elisa.
 * Java Threads
 * Gradle 
 
-
-## *Build Project*
-1. Create Database ```CREATE DATABASE zaizidb;```
-2. Set Username and Password in the ```application.properties``` file
-3. Clone the project
-4. Navigate to root path (ShoppingCart)
-5. Invoke ```bower install```
-6. Invoke ```mvn clean install -DskipTests```
-7. Navigate to target folder
-
 ## *Run Project*
 * Invoke the following commands to run the Dracula Server Frankenstein Server and run the Client using the terminal.
 
+*In the Windows Environment:*
+
+*Run Dracula Server*
+```.\gradlew.bat runDraculaServer```
+
+*Run Frankenstein Server*
+```.\gradlew.bat runFrankensteinServer```
+
+*Run Client*
+```.\gradlew.bat runClient```
+
+
+
+*In the Linux Environment:*
 *Run Dracula Server*
 ```./gradlew runDraculaServer```
 
