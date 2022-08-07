@@ -13,22 +13,22 @@ Exercise  Client-Server application for Polyster Elisa.
 *In the Windows Environment:*
 
 *Run Dracula Server*
-```.\gradlew.bat runDraculaServer```
+*```.\gradlew.bat runDraculaServer```
 
 *Run Frankenstein Server*
-```.\gradlew.bat runFrankensteinServer```
+*```.\gradlew.bat runFrankensteinServer```
 
 *Run Client*
-```.\gradlew.bat runClient```
+*```.\gradlew.bat runClient```
 
 
 
 *In the Linux Environment:*
 *Run Dracula Server*
-```./gradlew runDraculaServer```
+*```./gradlew runDraculaServer```
 
 *Run Frankenstein Server*
-```./gradlew runFrankensteinServer```
+*```./gradlew runFrankensteinServer```
 
 *Run Client*
-```./gradlew runClient```
+*```./gradlew runClient```
