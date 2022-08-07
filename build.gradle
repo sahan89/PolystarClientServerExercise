@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.polystar'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+task runDraculaServer(type: JavaExec) {
+    group = "Execution"
+    classpath = sourceSets.main.runtimeClasspath
+    main = "com.polystar.server.DraculaServer"
+}
+
+task runFrankensteinServer(type: JavaExec) {
+    group = "Execution"
+    classpath = sourceSets.main.runtimeClasspath
+    main = "com.polystar.server.FrankensteinServer"
+}
+
+task runClient(type: JavaExec) {
+    group = "Execution"
+    classpath = sourceSets.main.runtimeClasspath
+    main = "com.polystar.client.PolystarClient"
+}
