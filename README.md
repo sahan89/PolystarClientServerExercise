@@ -24,11 +24,11 @@ Run Client
 
 
 ###### ***In the Linux Environment:***
-###### <sub> Run Dracula Server </sub>
+Run Dracula Server
 ```./gradlew runDraculaServer```
 
-###### <sub> Run Frankenstein Server </sub>
+Run Frankenstein Server
 ```./gradlew runFrankensteinServer```
 
-###### <sub> Run Client </sub>
+Run Client
 ```./gradlew runClient```
