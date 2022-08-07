@@ -17,13 +17,17 @@ import java.util.stream.Collectors;
 
 public class PolystarClient {
 
+    private static final int FRANKENSTEIN_SERVER_PORT = 8081;
+    private static final int DRACULA_SERVER_PORT = 8082;
+    private static final int THREAD_COUNT = 2;
+
     public static void main(String[] args)
             throws IOException, ClassNotFoundException, InterruptedException, ExecutionException {
-        ExecutorService pool = Executors.newFixedThreadPool(2);
+        ExecutorService pool = Executors.newFixedThreadPool(THREAD_COUNT);
         InetAddress host = InetAddress.getLocalHost();
         List<PolystarCallable> callables = Arrays.asList(
-                new PolystarCallable(host.getHostName(), 8081),
-                new PolystarCallable(host.getHostName(), 8082));
+                new PolystarCallable(host.getHostName(), FRANKENSTEIN_SERVER_PORT),
+                new PolystarCallable(host.getHostName(), DRACULA_SERVER_PORT));
 
         List<Future<Map<String, Integer>>> futures = pool.invokeAll(callables);
 
