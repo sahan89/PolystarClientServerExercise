@@ -1,5 +1,5 @@
 ## *Overview*
-Exercise  Client-Server application for Polyster Elisa.
+Exercise  Client-Server most 5 common words find application for Polyster Elisa.
 
 ## *Prerequisites*
 * Java 11
@@ -32,3 +32,6 @@ Run Frankenstein Server
 
 Run Client
 ```./gradlew runClient```
+
+
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
