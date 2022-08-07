@@ -33,5 +33,6 @@ Run Frankenstein Server
 Run Client
 ```./gradlew runClient```
 
+## *Outout*
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![This is an image]([https://myoctocat.com/assets/images/base-octocat.svg](https://photos.google.com/photo/AF1QipP3QtYsHzebk5MPOZ0Thfcx8WWLn3athHCYGvVH))
