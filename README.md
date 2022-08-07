@@ -1,5 +1,5 @@
 ## *Overview*
-Exercise  Client-Server most 5 common words find application for Polyster Elisa.
+Exercise for Polyster Elisa to find most common 5 words using the Client-Server Java Application.
 
 ## *Prerequisites*
 * Java 11
