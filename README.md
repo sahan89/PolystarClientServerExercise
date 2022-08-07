@@ -20,11 +20,11 @@ Exercise  Client-Server application for Polyster Elisa.
 ## *Run Project*
 * Invoke the following commands to run the Dracula Server Frankenstein Server and run the Client using the terminal.
 
-Run Dracula Server
+*Run Dracula Server*
 ```./gradlew runDraculaServer```
 
-### Run Frankenstein Server
+*Run Frankenstein Server*
 ```./gradlew runFrankensteinServer```
 
-### Run Client
+*Run Client*
 ```./gradlew runClient```
