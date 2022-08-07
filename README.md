@@ -35,4 +35,4 @@ Run Client
 
 ## *Outout*
 
-![This is an image]([https://myoctocat.com/assets/images/base-octocat.svg](https://photos.google.com/photo/AF1QipP3QtYsHzebk5MPOZ0Thfcx8WWLn3athHCYGvVH))
+![This is an image](https://i.postimg.cc/4xrzJ64y/Capture.jpg)
