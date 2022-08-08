@@ -33,6 +33,6 @@ Run Frankenstein Server
 Run Client
 ```./gradlew runClient```
 
-## *Outout*
+## *Output*
 
 ![This is an image](https://i.postimg.cc/4xrzJ64y/Capture.jpg)
