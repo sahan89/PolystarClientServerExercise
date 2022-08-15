@@ -10,10 +10,6 @@ repositories {
     mavenCentral()
 }
 
-tasks.named('test') {
-    useJUnitPlatform()
-}
-
 task runDraculaServer(type: JavaExec) {
     group = "Execution"
     classpath = sourceSets.main.runtimeClasspath
@@ -30,4 +26,13 @@ task runClient(type: JavaExec) {
     group = "Execution"
     classpath = sourceSets.main.runtimeClasspath
     main = "com.polystar.client.PolystarClient"
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
 }

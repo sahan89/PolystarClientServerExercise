@@ -29,8 +29,6 @@ public class FileReader {
                 }
             }
         }
-        wordMap.remove("");
         return wordMap;
     }
-
 }
